@@ -2,51 +2,13 @@
   {
     "id": 1,
     "task": "Daily Stand Up",
-    "complete": true
+    "complete": true,
+    "dateUpdated": "2022-08-19"
   },
   {
     "id": 2,
     "task": "Sprint Planning",
-    "complete": true
-  },
-  {
-    "id": 3,
-    "task": "Effort Estimation",
-    "complete": false
-  },
-  {
-    "id": 4,
-    "task": "Sprint Restrospective",
-    "complete": true
-  },
-  {
-    "id": 5,
-    "task": "Team Discussions",
-    "complete": false
-  },
-  {
-    "id": 6,
-    "task": "Knowledge Sharing",
-    "complete": true
-  },
-  {
-    "id": 7,
-    "task": "Documentation",
-    "complete": true
-  },
-  {
-    "id": 8,
-    "task": "PR Reviews",
-    "complete": false
-  },
-  {
-    "id": 9,
-    "task": "On Boarding",
-    "complete": true
-  },
-  {
-    "id": 10,
-    "task": "Fun Activities",
-    "complete": false
+    "complete": true,
+    "dateUpdated": "2022-08-19"
   }
 ]
