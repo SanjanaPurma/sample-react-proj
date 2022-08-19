@@ -10,53 +10,5 @@
     "task": "Sprint Planning",
     "complete": true,
     "dateUpdated": "2022-08-19"
-  },
-  {
-    "id": 3,
-    "task": "Effort Estimation",
-    "complete": false,
-    "dateUpdated": "2022-08-19"
-  },
-  {
-    "id": 4,
-    "task": "Sprint Restrospective",
-    "complete": true,
-    "dateUpdated": "2022-08-19"
-  },
-  {
-    "id": 5,
-    "task": "Team Discussions",
-    "complete": false,
-    "dateUpdated": "2022-08-19"
-  },
-  {
-    "id": 6,
-    "task": "Knowledge Sharing",
-    "complete": true,
-    "dateUpdated": "2022-08-19"
-  },
-  {
-    "id": 7,
-    "task": "Documentation",
-    "complete": true,
-    "dateUpdated": "2022-08-19"
-  },
-  {
-    "id": 8,
-    "task": "PR Reviews",
-    "complete": false,
-    "dateUpdated": "2022-08-19"
-  },
-  {
-    "id": 9,
-    "task": "On Boarding",
-    "complete": true,
-    "dateUpdated": "2022-08-19"
-  },
-  {
-    "id": 10,
-    "task": "Fun Activities",
-    "complete": false,
-    "dateUpdated": "2022-08-19"
   }
 ]

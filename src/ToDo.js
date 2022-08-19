@@ -3,8 +3,7 @@ import React from "react";
 const ToDo = ({ todo, handleToggle }) => {
   const handleClick = (e) => {
     e.preventDefault();
-    console.log(e.currentTarget.id);
-    handleToggle(e.currentTarget.id);
+    handleToggle(todo.id);
   };
 
   return (
