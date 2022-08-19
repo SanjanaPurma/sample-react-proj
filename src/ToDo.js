@@ -1,29 +1,28 @@
 import React from "react";
 
 const ToDo = ({ todo, handleToggle }) => {
-  const [checked, setChecked] = React.useState(todo.complete);
   const handleClick = (e) => {
-    setChecked(e.currentTarget.checked);
     e.preventDefault();
+    console.log(e.currentTarget.id);
     handleToggle(e.currentTarget.id);
   };
 
-  const handleChange = (event) => {
-    setChecked(event.target.checked);
-  };
-
   return (
-    <div
-      value={todo.id}
-      key={todo.id + todo.task}
-      id={todo.id}
-      name="todo"
-      onClick={handleClick}
-    >
-      <input type="checkbox" checked={checked} onChange={handleChange} />
+    <div>
+      <input
+        type="checkbox"
+        checked={todo.complete}
+        onChange={handleClick}
+        key={todo.id + todo.task}
+        id={todo.id}
+        value={todo.id}
+        name="todo"
+      />
       <label className={todo.complete ? "todo strike" : "todo"}>
         {todo.task}
       </label>
+      <br />
+      {todo.complete === true ? new Date(todo.dateUpdated).toISOString() : ""}
     </div>
   );
 };
